@@ -295,7 +295,7 @@ function esVocal(letra){
 
 
   var cantidadLetras = letra.length;
-	if(cantidadLetras==1){
+	if(cantidadLetras===1){
     const vocales = ['a','e','i','o','u'];
     
     if(vocales.indexOf(letra)=== -1){
